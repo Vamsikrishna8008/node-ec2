@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.get("/health", (req, res) => {
   res.status(200).json({
     status: "UP",
-    message: "Server is healthy and running",
+    message: "Server is healthy and running123",
     timestamp: new Date().toISOString(),
   });
 });
