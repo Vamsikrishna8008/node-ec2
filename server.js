@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.get("/health", (req, res) => {
   res.status(200).json({
     status: "UP",
-    message: "Server is healthy and running in aspires",
+    message: "Server is healthy and running in aspire",
     timestamp: new Date().toISOString(),
   });
 });
